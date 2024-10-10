@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #007BFF; /* Warna biru */
+    color: #fff;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+/* Styling untuk gambar profil */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 5px solid #fff; /* Border putih */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #fff; /* Warna putih untuk kontras */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #e0e0e0; /* Warna abu-abu muda */
+}
+
+.contact-info p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #007BFF; /* Garis bawah biru */
+    margin-bottom: 10px;
+    color: #007BFF; /* Warna biru untuk heading */
+}
+
+.education {
+    margin-bottom: 20px;
+    
+}
+
+.job
+ul {
+    list-style-type: disc; /* Ensures bullets are shown */
+    padding-left: 20px; /* Adds space to the left of the list */
+}
+
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: #007BFF; /* Warna biru untuk subheading */
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul.skills li {
+    background: #007BFF; /* Background biru untuk item skill */
+    color: #fff;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #007BFF; /* Garis atas biru */
+    font-size: 0.9em;
+    color: #666;
+}
+
+.Paragraf1 {
+    text-align: justify;
+}
